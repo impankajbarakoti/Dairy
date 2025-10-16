@@ -13,7 +13,7 @@ const FooterSection = () => {
 
   const productLinks = [
     { name: "OUR BLOG", href: "/blogs" },
-    { name: "BLOG DETAILS", href: "/blog/:id" },
+    { name: "BLOG DETAILS", href: "/blog/1" },
     
   ];
 
