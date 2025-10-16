@@ -5,17 +5,16 @@ import { Send } from "lucide-react"; // Using Lucide React for the send icon
 const FooterSection = () => {
   // Navigation links data
   const exploreLinks = [
-    { name: "ARTICLES", href: "#" },
-    { name: "FAQ", href: "#" },
-    { name: "CONTACTS", href: "#" },
-    { name: "TESTIMONIALS", href: "#" },
+    { name: "HOME", href: "/home" },
+    { name: "ABOUT", href: "/about" },
+    { name: "CONTACTS", href: "/contact" },
+    { name: "BLOGS", href: "/blogs" },
   ];
 
   const productLinks = [
-    { name: "PRODUCTS", href: "#" },
-    { name: "GALLERY", href: "#" },
-    { name: "ABOUT US", href: "#" },
-    { name: "BLOG", href: "#" },
+    { name: "OUR BLOG", href: "/blogs" },
+    { name: "BLOG DETAILS", href: "/blog/:id" },
+    
   ];
 
   return (
